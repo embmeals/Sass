@@ -7,6 +7,8 @@
           align-items: center;
 }
 
+#myLinks { margin-right: 10%; margin-top: 5%; }
+
 .navbar {
   background: #f7f7f7;
   height: 80px;
@@ -33,6 +35,14 @@
   opacity: 0;
 }
 
+.navbar__menu a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 @media screen and (max-width: 768px) {
   .navbar__bars {
     color: #222121;
@@ -47,7 +57,7 @@
 .navbar__menu {
   list-style: none;
   text-align: center;
-  margin-right: 24px;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 768px) {
